@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Artesandroid</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Fechar</string>
+    <string name="nav_header_title">A Melhor Loja de Artesanatos</string>
+    <string name="nav_header_subtitle">www.artesandroid.com</string>
+    <string name="nav_header_desc">ARSANATOS BRASIL</string>
+    <string name="action_settings">Configurações</string>
+
+    <string name="menu_home">Principal</string>
+    <string name="menu_cadProduto">Nossos Produtos</string>
+    <string name="menu">Categorias</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Categorias</string>
+
+</resources>

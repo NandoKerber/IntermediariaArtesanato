@@ -1,0 +1,29 @@
+package com.example.appprodutodrawer.Produto;
+
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.Toast;
+
+import com.example.appprodutodrawer.R;
+
+public class Colares extends AppCompatActivity {
+
+    public Button btn4;
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_colares);
+
+        btn4 = findViewById(R.id.comprar4);
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Toast.makeText(getApplicationContext(), "Compra efetuada com sucesso!", Toast.LENGTH_SHORT).show();
+            }
+        });
+    }
+}
